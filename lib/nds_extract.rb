@@ -12,7 +12,7 @@ total_revenue = 0
 while nds.length > counter do 
   director_key_holder = nds[counter][:name]
   while nds[counter][:movies].length > number_of_movies do 
-    total_revenue += nds[counter][:movies][]
+    total_revenue += nds[counter][:movies][number_of_movies][:]
 
   end
 counter += 1
