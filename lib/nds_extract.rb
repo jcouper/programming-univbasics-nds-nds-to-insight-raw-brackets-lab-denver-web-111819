@@ -5,9 +5,10 @@ def directors_totals(nds)
   
 counter = 0 
 final_array = {}
+director_key_holder = " "
 
 while nds.length > counter do 
- puts  "hey team!"
+  director_key_holder = nds[counter][]
 counter += 1
 end
 
