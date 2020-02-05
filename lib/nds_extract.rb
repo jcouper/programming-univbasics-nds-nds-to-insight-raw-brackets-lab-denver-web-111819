@@ -6,7 +6,7 @@ def directors_totals(nds)
 counter = 0 
 final_hash = {}
 director_key_holder = " "
-number_of_movies = 0 
+
 
 
 while nds.length > counter do 
