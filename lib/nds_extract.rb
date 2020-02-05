@@ -22,7 +22,7 @@ counter += 1
 
 
 end
-puts final_hash
+final_hash
 
 end
   
