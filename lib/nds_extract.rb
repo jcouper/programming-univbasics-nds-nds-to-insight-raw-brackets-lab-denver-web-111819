@@ -19,7 +19,7 @@ counter += 1
 final_hash[director_key_holder] = total_revenue
 total_revenue = 0 
 end
-
+final_hash
 
 end
   
