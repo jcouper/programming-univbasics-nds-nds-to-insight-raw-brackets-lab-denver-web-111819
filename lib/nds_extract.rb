@@ -7,7 +7,7 @@ counter = 0
 final_hash = {}
 director_key_holder = " "
 number_of_movies = 0 
-total_revenue = 0 
+
 
 while nds.length > counter do 
   number_of_movies = 0 
