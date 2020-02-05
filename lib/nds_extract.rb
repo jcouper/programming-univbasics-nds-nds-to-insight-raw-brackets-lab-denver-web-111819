@@ -8,7 +8,8 @@ final_array = {}
 director_key_holder = " "
 
 while nds.length > counter do 
-  director_key_holder = nds[counter][]
+  director_key_holder = nds[counter][:name]
+  puts nds[counter][:name]
 counter += 1
 end
 
