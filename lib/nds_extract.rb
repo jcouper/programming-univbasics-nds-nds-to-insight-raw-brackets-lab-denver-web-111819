@@ -10,6 +10,7 @@ number_of_movies = 0
 total_revenue = 0 
 
 while nds.length > counter do 
+  number_of_movies = 0 
   director_key_holder = nds[counter][:name]
   while nds[counter][:movies].length > number_of_movies do 
     total_revenue += nds[counter][:movies][number_of_movies][:worldwide_gorss]
