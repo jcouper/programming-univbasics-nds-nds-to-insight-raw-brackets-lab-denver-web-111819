@@ -10,7 +10,7 @@ while nds.length > counter do
  puts  "hey team!"
 
 end
-counter += 1
+
 
 end
   
