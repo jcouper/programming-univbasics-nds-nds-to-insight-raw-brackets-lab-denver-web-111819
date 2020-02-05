@@ -4,7 +4,7 @@ require 'directors_database'
 def directors_totals(nds)
   
 counter = 0 
-final_array = {}
+final_hash = {}
 director_key_holder = " "
 number_of_movies = 0 
 total_revenue = 0 
@@ -12,10 +12,12 @@ total_revenue = 0
 while nds.length > counter do 
   director_key_holder = nds[counter][:name]
   while nds[counter][:movies].length > number_of_movies do 
-    total_revenue += nds[counter][:movies][number_of_movies][:]
-
+    total_revenue += nds[counter][:movies][number_of_movies][:worldwide_gorss]
+    number_of_movies += 1
   end
 counter += 1
+final_hash[director_key_holder] = total_revenue
+total_revenue = 0 
 end
 
 
