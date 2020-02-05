@@ -8,7 +8,7 @@ final_array = {}
 
 while nds.length > counter do 
  puts  "hey team!"
-
+counter += 1
 end
 
 
