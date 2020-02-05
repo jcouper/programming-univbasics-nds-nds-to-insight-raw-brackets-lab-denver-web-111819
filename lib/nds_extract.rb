@@ -17,8 +17,9 @@ while nds.length > counter do
     total_revenue += nds[counter][:movies][number_of_movies][:worldwide_gorss]
     number_of_movies += 1
   end
-counter += 1
 final_hash[director_key_holder] = total_revenue
+counter += 1
+
 
 end
 puts final_hash
