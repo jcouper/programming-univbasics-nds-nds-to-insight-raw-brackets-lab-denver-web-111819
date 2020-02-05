@@ -19,7 +19,7 @@ while nds.length > counter do
   end
 counter += 1
 final_hash[director_key_holder] = total_revenue
-total_revenue = 0 
+
 end
 puts final_hash
 
