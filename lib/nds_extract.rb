@@ -6,10 +6,15 @@ def directors_totals(nds)
 counter = 0 
 final_array = {}
 director_key_holder = " "
+number_of_movies = 0 
+total_revenue = 0 
 
 while nds.length > counter do 
   director_key_holder = nds[counter][:name]
-  puts nds[counter][:name]
+  while nds[counter][:movies].length > number_of_movies do 
+    total_revenue += nds[counter][:movies][]
+
+  end
 counter += 1
 end
 
